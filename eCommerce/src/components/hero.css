@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  height: 58vh;
+  direction: rtl;
+  width: 100%;
+}
+
+.hero-img {
+  margin-right: 8vh;
+  padding-top: 5vh;
+  display: inline;
+  overflow: hidden;
+}
+
+.hero-img img {
+  padding-right: 22vh;
+
+  padding-left: 3vw;
+  margin-left: 0px;
+  position: relative;
+}
+
+.herocat {
+  padding-top: 5vh;
+  flex: content;
+  box-sizing: 0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.herocat ul {
+  display: flex;
+  gap: 3vw;
+  direction: ltr;
+  font-size: 18px;
+  margin-right: 2vw;
+  padding-left: 10vw;
+  white-space: nowrap;
+}
+
+.it:not(:last-child) {
+  margin-bottom: 15px;
+}
