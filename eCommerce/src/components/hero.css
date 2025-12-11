@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   flex-direction: row;
-  height: 58vh;
+  height: 55vh;
   direction: rtl;
   width: 100%;
 }
@@ -30,7 +30,7 @@
 
 .herocat ul {
   display: flex;
-  gap: 3vw;
+  gap: 10vw;
   direction: ltr;
   font-size: 18px;
   margin-right: 2vw;
@@ -39,5 +39,5 @@
 }
 
 .it:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }

@@ -15,14 +15,20 @@ export const Hero = () => {
         <img src='./heroimg.jpg'></img>
       </div>
       <div className='herocat'>
+        <ul className='it'>
+          Hats<i>></i>
+        </ul>
         {data
-          .sort(() => Math.random() - 0.5)
+          .sort(() => Math.random() - 0.25)
           .slice(0, 9)
           .map((product) => (
             <ul className='it' key={product.id}>
-              {product.name} <i>></i>
+              {product.name}
             </ul>
           ))}
+        <ul className='it'>Socks</ul>
+
+        <ul className='it'>Jackets</ul>
       </div>
     </div>
   );
